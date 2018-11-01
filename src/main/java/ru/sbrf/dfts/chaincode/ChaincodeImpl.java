@@ -44,7 +44,7 @@ public class ChaincodeImpl extends ChaincodeBase {
 
     @Override
     public Response init(ChaincodeStub stub) {
-        return null;
+        return createResponse(Response.Status.SUCCESS, "ok", null);
     }
 
     @Override
